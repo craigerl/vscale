@@ -19,6 +19,7 @@ Usage:
 Example:
 
    vscale 110
+
    aconnect -x ; aconnect 24 129; aconnect 129 20
 
    This will multiply your input velocity by 1.154545,
