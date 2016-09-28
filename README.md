@@ -11,9 +11,9 @@ Alsa client which scales up midi note velocity events
    dark, use this program to upscale key velocities.
 
 Usage:
-   vscale <value>
+   vscale value
 
-   where <value> is the typical maximum output your controler
+   where value is the typical maximum output your controler
    provides from 0 to 127.
 
 Example:
