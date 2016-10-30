@@ -24,7 +24,7 @@ Example:
    to see which midi devices map to what numbers.
 
 License:
-   Craig Lamparter 2016  General Public License
+   Craig Lamparter 2016 
 
    code and inspiration used in part from organ_filter, 
                     Hans Fugal <hans@fugal.net>  2004
