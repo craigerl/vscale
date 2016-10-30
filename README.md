@@ -11,25 +11,26 @@ Alsa client which scales up midi note velocity events
    dark, use this program to upscale key velocities.
 
 Usage:
-<code>   vscale value</code>
+<code>   vscale <value></code>
 
    where value is the typical maximum output your controler
    provides from 0 to 127.
 
 Example:
 
-   vscale 110
+<code>   vscale 110 </code>
 
-   aconnect -x ; aconnect 24 129; aconnect 129 20
+<code>   aconnect -x ; aconnect 24 129; aconnect 129 20 </code>
 
    This will multiply your input velocity by 1.154545,
    connect alsa input (24) to vscale (129), then connect
    vscale (129) to alsa output (20).   Use "aconnect -i"
    to see which midi devices map to what numbers.
 
-License:
-   Craig Lamparter 2016  General Public License
+Copyright:
+   Craig Lamparter 2016 
 
-   code and inspiration used in part from organ_filter,
+   See LICENSE file for more information.
+   Code and inspiration used in part from organ_filter,
                     Hans Fugal <hans@fugal.net>  2004
 
